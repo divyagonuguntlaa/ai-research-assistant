@@ -1,0 +1,27 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Generated research output
+research_output.txt
+research_*.txt
+
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
